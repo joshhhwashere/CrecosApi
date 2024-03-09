@@ -13,7 +13,7 @@ namespace CrecosApi.Models
             public Producto()
             {
                 Nombre = "NombrePredeterminado";
-                DetallesDePedido = new List<PedidoDetalle>();  // Asignar una lista vacía por defecto
+                DetallesDePedido = new List<PedidoDetalle>();
             }
     }
 }
