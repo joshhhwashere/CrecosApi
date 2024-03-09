@@ -5,7 +5,7 @@ namespace CrecosApi.Models
 {
     public class Pedido
     {
-                [Key]
+        [Key]
         public int Id { get; set; }
         public int ClienteId { get; set; }
         public Cliente Cliente { get; set; }
